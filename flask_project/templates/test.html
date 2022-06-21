@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>Users:</p>
+    {% for user in users %}
+        <p>{{ user[1] }} {{ user[2] }}</p>
+    {% endfor %}
+</body>
+</html>
